@@ -11,7 +11,7 @@ investment model → equity IRR, sensitivities and dashboard in Excel.
 
 The model builds on `PyPSA_model_v4.py` and the input data of Abuzayed (2025)
 ([github.com/AnasAbuzayed/market_value](https://github.com/AnasAbuzayed/market_value), CC BY 4.0).
-All data sources are listed in Appendix B4 of the thesis.
+All data sources are listed in [SOURCES.md](SOURCES.md) (also Appendix B4 of the thesis).
 
 ## Structure
 
@@ -36,7 +36,7 @@ Folders are numbered in the order of the workflow. Each has `Code/` and, where n
   - `irr_replica.py`: Python rebuild of the equity IRR, used by `breakeven.py`
   - `plot_irr_penetration.py`: Figure 4
 - **06_Excel_Export**: `export_excel.py` collects all results into `Py_Export.xlsx` for the investment model
-- **Root**: `run_all.sh` (full chain), `thesis_style.py` (figure style), `requirements.txt`
+- **Root**: `run_all.sh` (full chain), `thesis_style.py` (figure style), `requirements.txt`, `SOURCES.md` (data sources)
 
 Every script starts with a short description of what it does, how it is built and how to run it.
 
