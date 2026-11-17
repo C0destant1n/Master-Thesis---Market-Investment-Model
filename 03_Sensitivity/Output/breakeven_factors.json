@@ -1,0 +1,52 @@
+{
+ "bat_be": {
+  "type": "break-even",
+  "factor": 3.3387,
+  "equity_irr_pct": 12.278
+ },
+ "dsm_be": {
+  "type": "plateau",
+  "factor": 2.0,
+  "equity_irr_pct": 3.629
+ },
+ "heat_be": {
+  "type": "plateau",
+  "factor": 8.0,
+  "equity_irr_pct": 9.652
+ },
+ "elec_be": {
+  "type": "plateau",
+  "factor": 3.0,
+  "equity_irr_pct": 6.269
+ },
+ "demand_be": {
+  "type": "break-even",
+  "factor": 1.2917,
+  "equity_irr_pct": 12.254
+ },
+ "co2_be": {
+  "type": "break-even",
+  "factor": 2.399,
+  "equity_irr_pct": 12.287
+ },
+ "c1_be": {
+  "type": "break-even",
+  "factor": 3.615,
+  "equity_irr_pct": 12.273
+ },
+ "c2_be": {
+  "type": "break-even",
+  "factor": 1.2429,
+  "equity_irr_pct": 12.294
+ },
+ "c3_be": {
+  "type": "break-even",
+  "factor": 1.7031,
+  "equity_irr_pct": 12.251
+ },
+ "c4_be": {
+  "type": "break-even",
+  "factor": 1.2018,
+  "equity_irr_pct": 12.299
+ }
+}
